@@ -26,6 +26,12 @@ Route::get('/', function () {
 |
 */
 
-Route::group(['middleware' => ['web']], function () {
-    //
+Route::get('Hello-world', function () {
+    return 'Hello-world';
+});
+Route::get('pengguna/{pengguna}', function ($pengguna) {
+    return "Hallo world dari pengguna $pengguna";
+});
+Route::get('berita/{berita?}', function ($berita="Laravel 5") {
+    return "berita $berita belum di baca";
 });
