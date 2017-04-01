@@ -14,6 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('mahasiswa_pengguna','MahasiswaController@mahasiswa');
+Route::get('dosen_pengguna','dosenController@dosen');
 
 Route::get('pengguna', 'PenggunaController@awal');
 Route::get('pengguna/tambah', 'PenggunaController@tambah');

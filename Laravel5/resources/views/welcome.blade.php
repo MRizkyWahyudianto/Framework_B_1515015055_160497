@@ -17,6 +17,7 @@
                 display: table;
                 font-weight: 100;
                 font-family: 'Lato';
+                background:'Blue';
             }
 
             .container {
@@ -35,10 +36,11 @@
             }
         </style>
     </head>
-    <body>
+    <body> 
+
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Wakwawaw</div>
             </div>
         </div>
     </body>
